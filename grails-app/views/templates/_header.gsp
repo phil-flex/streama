@@ -62,7 +62,7 @@
             <button id="single-button" type="button" class="btn btn-primary btn-sm header-btn profile-select-dropdown"
                     uib-dropdown-toggle ng-disabled="disabled">
               <div class="avatar-in-header" ng-style="{'background-color': '#'+($root.currentProfile.avatarColor || '0b74b2')}">
-                <img src="/assets/streama-profile-smiley.png" alt="">
+                <img src="./assets/streama-profile-smiley.png" alt="">
               </div>
               <p>{{$root.currentProfile.profileName || $root.currentUser.fullName || $root.currentUser.username}}</p>
               <span class="caret"></span>
@@ -71,7 +71,7 @@
                 uib-dropdown-menu role="menu" aria-labelledby="single-button">
               <li role="menuitem" class="header-profile-item" ng-repeat="prof in $root.usersProfiles" ng-click="$root.setCurrentSubProfile(prof)">
                 <div class="avatar-in-header" ng-style="{'background-color': '#'+(prof.avatarColor || '0b74b2')}">
-                  <img src="/assets/streama-profile-smiley.png" alt="">
+                  <img src="./assets/streama-profile-smiley.png" alt="">
                 </div>
                 <a>{{prof.profileName}} <i ng-if="prof.isChild" class="icon-baby2"></i></a>
               </li>

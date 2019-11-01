@@ -110,3 +110,5 @@ environments {
     grails.dbconsole.enabled = true
   }
 }
+
+server.contextPath='/streama'
