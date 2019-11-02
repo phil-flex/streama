@@ -73,7 +73,7 @@ angular.module('streama').controller('modalMovieCtrl', [
 	}
 
 	function uploadImage(files, type) {
-		uploadService.doUpload($scope.imageUpload, 'file/upload.json', function (data) {
+		uploadService.doUpload($scope.imageUpload, '/file/upload.json', function (data) {
 			$scope.imageUpload.percentage = null;
 			if(data.error) return
 

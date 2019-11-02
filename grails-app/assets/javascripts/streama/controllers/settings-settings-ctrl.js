@@ -64,7 +64,7 @@ angular.module('streama').controller('settingsSettingsCtrl',
 			var uploadDir = _.find(data, {settingsKey: 'Upload Directory'});
 			if (uploadDir.value) {
 				//do upload
-				uploadService.doUpload($scope.uploadStatus, 'file/upload.json?isPublic=true', function (data) {
+				uploadService.doUpload($scope.uploadStatus, '/file/upload.json?isPublic=true', function (data) {
 					$scope.uploadStatus.percentage = null;
 					if(data.error) return;
 
@@ -78,7 +78,7 @@ angular.module('streama').controller('settingsSettingsCtrl',
 	};
 
 	$scope.getAssetFromSetting = function (setting) {
-    if(typeof setting === "undefined")return false;
+    if(typeof setting === "undefined") { return false; }
     var assetURL = setting.value;
 
     if(assetURL !== setting.prevValue) {

@@ -194,7 +194,7 @@ angular.module('streama').controller('adminShowCtrl', [
 
 	$scope.imageUpload = {};
 
-	$scope.uploadPoster = uploadService.doUpload.bind(uploadService, $scope.imageUpload, 'file/upload.json', function (data) {
+	$scope.uploadPoster = uploadService.doUpload.bind(uploadService, $scope.imageUpload, '/file/upload.json', function (data) {
 		console.log('%c test', 'color: deeppink; font-weight: bold; text-shadow: 0 0 5px deeppink;', data);
 		$scope.imageUpload.percentage = null;
 
