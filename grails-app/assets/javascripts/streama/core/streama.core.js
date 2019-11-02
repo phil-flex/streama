@@ -4,6 +4,7 @@
 
 angular.module("streama.core", ['ngResource'])
     .constant("contextPath", window.contextPath)
+    .constant("templateUrl", window.contextPath)
     .config(config);
 
 function config($httpProvider) {
