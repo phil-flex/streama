@@ -27,7 +27,7 @@ angular.module('streama.translations').config(function ($translateProvider) {
       BROWSE_GENRES: 'Browse',
       LOOKING_AT_GENRE: 'You\'re looking at the genre:',
       MARK_COMPLETED: 'Mark completed',
-      NO_TVSHOWS_FOUND: 'No Tv-Shows Available',
+      NO_TVSHOWS_FOUND: 'No Shows Available',
       NO_MOVIES_FOUND: 'No Movies Available'
     },
     VIDEO: {
@@ -121,8 +121,8 @@ angular.module('streama.translations').config(function ($translateProvider) {
     FAQ: {
       UPLOAD_VIDEO: {
         TITLE: 'How can I upload a video?',
-        TEXT: "You can upload videos by going to Manage Content menu. Choose if you want to upload a Movie, TV show or Other video. Click the relevant sub-menu option" +
-          " on the vertical navigation bar on the left side of the screen. You can upload a video by clicking the Create New Movie/TV Show/Other Video button or by typing" +
+        TEXT: "You can upload videos by going to Manage Content menu. Choose if you want to upload a Movie, show or Other video. Click the relevant sub-menu option" +
+          " on the vertical navigation bar on the left side of the screen. You can upload a video by clicking the Create New Movie/Show/Other Video button or by typing" +
           " the name of the video you want to upload to the search bar and selecting the relevant movie from search results. After that, you can choose to fill in the video's" +
           " information either manually or loading its information from TheMovieDB. After that, you can upload the video and subtitle files by clicking Manage Files button."
       },

@@ -40,7 +40,7 @@ angular.module('streama').controller('modalTvShowCtrl', [
 	function saveShow(video) {
 		apiService.tvShow.save(video).then(function (data) {
 			$uibModalInstance.close(data.data);
-			alertify.success("TV Show saved.");
+			alertify.success("Show saved.");
 		});
 	}
 

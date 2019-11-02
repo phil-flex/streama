@@ -226,7 +226,7 @@
               </g:if>
 
               <g:if test="${notificationQueues.findAll{it.tvShow}}">
-                <h3>New Tv Shows</h3>
+                <h3>New Shows</h3>
                 <table>
                   <g:each in="${notificationQueues.findAll{it.tvShow}}" var="notification">
                     <tr>

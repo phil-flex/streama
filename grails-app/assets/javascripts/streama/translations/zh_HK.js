@@ -1,6 +1,6 @@
 //= wrapped
 /**
- * Created by antonia on 14/05/16.
+ * Created by philip on 2019-11-02.
  */
 angular.module('streama.translations').config(function ($translateProvider) {
   $translateProvider.translations('hk', {

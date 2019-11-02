@@ -111,8 +111,8 @@ angular.module('streama.translations').config(function ($translateProvider) {
 		FAQ: {
 			UPLOAD_VIDEO: {
 				TITLE: 'Hvordan uploader jeg en video?',
-				TEXT: "Du kan uploade videoer ved at gå til Administrer Indhold menuen. Vælg om du vil uploade en Film, TV Serie eller en Anden video. Klik på den relevante undermenu mulighed" +
-				"på den lodrette navigations bar på venstre side af skærmen. Du kan uploade en video ved at trykke på Opret Ny Film/TV Serie/Andre Film knappen eller ved at skrive" +
+				TEXT: "Du kan uploade videoer ved at gå til Administrer Indhold menuen. Vælg om du vil uploade en Film, Serie eller en Anden video. Klik på den relevante undermenu mulighed" +
+				"på den lodrette navigations bar på venstre side af skærmen. Du kan uploade en video ved at trykke på Opret Ny Film/Serie/Andre Film knappen eller ved at skrive" +
 				" navnet på videoen du vil uploade til søge feltet og vælg the relevante film fra søge resultaterne. Efter det, kan du vælge at udfylde videons information" +
         " manuelt eller ved at indlæse dens information fra TheMovieDB. Efter det, kan du uploade video og undertekst filerne ved at trykke Administrer Filer knappen."
 			},

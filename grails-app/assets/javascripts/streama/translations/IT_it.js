@@ -111,7 +111,7 @@ angular.module('streama.translations').config(function ($translateProvider) {
 			UPLOAD_VIDEO: {
 				TITLE: 'Come faccio a caricare un video?',
 				TEXT: "È possibile caricare i video andando al menu Gestisci contenuti. Scegliere se si desidera caricare un film, show televisivo o altri video. Fare clic sull'opzione relativo sottomenu" +
-					  "Sulla barra di navigazione verticale sul lato sinistro dello schermo. È possibile caricare un video cliccando sul TV Show Altro pulsante Nuovo Film / / Video Creare o digitando" +
+					  "Sulla barra di navigazione verticale sul lato sinistro dello schermo. È possibile caricare un video cliccando sul Show Altro pulsante Nuovo Film / / Video Creare o digitando" +
 					  "Il nome del video che si desidera caricare la barra di ricerca e selezionare il filmato in questione dai risultati di ricerca. Dopo di che, si può scegliere di compilare il del video" +
 					  "Le informazioni manualmente o caricando le sue informazioni dal TheMovieDB. Dopo di che, è possibile caricare il file di sottotitoli video e facendo clic sul pulsante File di Gestione."
 			},

@@ -7,7 +7,7 @@
 
     <div class="form-group" ng-show="!selectedItem.id">
       <div class="col-sm-12 typeahead-wrapper" ng-if="!addManually">
-        <input type="text" class="form-control name-input" ng-model="typeahead.currentTitle" placeholder="Search from TV-Shows/Movies..." typeahead-loading="loading" typeahead-append-to-body="true"
+        <input type="text" class="form-control name-input" ng-model="typeahead.currentTitle" placeholder="Search from Shows/Movies..." typeahead-loading="loading" typeahead-append-to-body="true"
                uib-typeahead="item.title for item in search($viewValue)" typeahead-on-select="selectFromAPI($item)" typeahead-template-url="/streama/typeahead--media.htm"
                typeahead-min-length="3" typeahead-wait-ms="500" required>
         <div class="spinner" ng-show="loading">

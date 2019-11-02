@@ -55,7 +55,7 @@ class DefaultDataService {
         ],
         [
             settingsKey: 'TheMovieDB API key',
-            description: "API stands for Application Programming Interface. TheMovieDB's movie/TV show information database is accessible only by registering at https://www.themoviedb.org/account/signup and requesting an API-key. " +
+            description: "API stands for Application Programming Interface. TheMovieDB's movie/show information database is accessible only by registering at https://www.themoviedb.org/account/signup and requesting an API-key. " +
               "After you have sent a request form, you can see your API-key by going to the API section in your profile's settings in TheMovieDB. The API-key is required by this application to fetch " +
               "all the nice Movie/Episode/Show data for you.",
             settingsType: 'string',
@@ -86,7 +86,7 @@ class DefaultDataService {
         ],
         [
             settingsKey: 'Local Video Files',
-            description: 'If you already have a directory with your videos, put it here and you will be able to choose them when creating movies or TV shows.',
+            description: 'If you already have a directory with your videos, put it here and you will be able to choose them when creating movies or shows.',
             settingsType: 'string',
             required: false
         ],

@@ -121,7 +121,7 @@ class TheMovieDbService {
       def JsonContent = new URL(BASE_URL + "/tv/$tvId?$API_PARAMS").getText("UTF-8")
       return new JsonSlurper().parseText(JsonContent)
     }catch (e){
-      log.warn("could not load fullMeta for TV SHOW this time, " + e.message)
+      log.warn("could not load fullMeta for SHOW this time, " + e.message)
     }
   }
 

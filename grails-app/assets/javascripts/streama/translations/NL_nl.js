@@ -117,7 +117,7 @@ angular.module('streama.translations').config(function ($translateProvider) {
       UPLOAD_VIDEO: {
         TITLE: 'Hoe kan ik een video uploaden?',
         TEXT: "U kan een video oploaden door naar het Beheer Content menu te gaan. Kies tussen het uploaden van een Film, Serie of andere soort video. Klik op de relevante sub-menu optie" +
-          " te vinden op de verticale navigatiebar op de linkerkant van het scherm. Je kan een nieuwe video toevoegen door te klikken op Create New Movie/TV Show/Other Video knop" +
+          " te vinden op de verticale navigatiebar op de linkerkant van het scherm. Je kan een nieuwe video toevoegen door te klikken op Create New Movie/Show/Other Video knop" +
           " of door de film te zoeken via de zoekbalk en het relevante resultaat te kiezen. Nadien kan je de informatie van de video manueel invullen of de informatie laden vanuit TheMovieDB." +
           " Als laatste voegt u de video en mogelijke ondertitels toe via de Mqnqge Files knop."
       },
