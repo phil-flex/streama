@@ -44,7 +44,7 @@ angular.module('streama').directive('adminEpisode', [
 			};
 
 
-      var uploadUrl = 'video/uploadFile.json?id=' + $scope.episode.id;
+      var uploadUrl = '/video/uploadFile.json?id=' + $scope.episode.id;
       $scope.upload = uploadService.doUpload.bind(uploadService, $scope.uploadStatus, uploadUrl, uploadSuccess, uploadError);
 
       function uploadSuccess (data) {

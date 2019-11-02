@@ -14,7 +14,7 @@ angular.module('streama').controller('modalFileCtrl', [
 		$scope.localDir = localFileLastPath.split('/') || [];
     $scope.video = video;
     $scope.uploadStatus = {};
-    $scope.upload = uploadService.doUpload.bind(uploadService, $scope.uploadStatus, 'video/uploadFile.json?id=' + video.id, onUploadSuccess, function () {});
+    $scope.upload = uploadService.doUpload.bind(uploadService, $scope.uploadStatus, '/video/uploadFile.json?id=' + video.id, onUploadSuccess, function () {});
 
     $scope.loadLocalFiles = loadLocalFiles;
 		$scope.backLocalDirectory = backLocalDirectory;

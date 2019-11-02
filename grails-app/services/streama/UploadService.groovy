@@ -108,7 +108,8 @@ class UploadService {
   }
 
   def getFileSrc(File file){
-    def servePrefix = grailsApplication.config.streama.servePrefix
+    //def servePrefix = grailsApplication.config.streama.servePrefix
+    def servePrefix = grailsApplication.config.server.contextPath
 
     if(servePrefix){
       servePrefix = servePrefix.replaceAll('/$', '')
