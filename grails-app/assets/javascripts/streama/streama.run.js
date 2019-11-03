@@ -64,7 +64,7 @@ angular.module('streama')
 	}
 
 	function loginUser() {
-		$window.location.assign('/login/login');
+		$window.location.assign(location.pathname + 'login/login');
 	}
 
 	function onStateChangeSuccess(e, toState) {
